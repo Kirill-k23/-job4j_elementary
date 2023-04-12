@@ -8,8 +8,8 @@ public class Converter {
     }
 
     public static float rubleToDollar(float value) {
-        float rsl1 = value / 60;
-        return rsl1;
+        float rsl = value / 60;
+        return rsl;
     }
 
     public static void main(String[] args) {
@@ -24,11 +24,11 @@ public class Converter {
         boolean passed = expected == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
 
-        float in1 = 180;
-        float expected1 = 3;
-        float out1 = Converter.rubleToDollar(in1);
-        boolean passed1 = expected1 == out1;
-        System.out.println("180 rubles are 3. Test result : " + passed1);
+         in = 180;
+         expected = 3;
+         out = Converter.rubleToDollar(in);
+        passed = expected == out;
+        System.out.println("180 rubles are 3. Test result : " + passed);
 
     }
 }
