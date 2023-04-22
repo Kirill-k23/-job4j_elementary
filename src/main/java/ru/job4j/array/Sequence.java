@@ -12,5 +12,11 @@ public class Sequence {
         array[2][0] = 7;
         array[2][1] = 8;
         array[2][2] = 9;
+        int[][] numbers = {{1}, {2, 3}, {3, 1, 5}, {4, 3, 6, 2}};
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(
+                    "Размер вложенного массива равен: " + numbers[i].length
+            );
+        }
     }
 }
