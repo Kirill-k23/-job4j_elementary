@@ -74,7 +74,7 @@ public class MatrixCheckTest {
                 {' ', ' ', 'Z'},
         };
         char[] result = MatrixCheck.extractDiagonal(input);
-        char[] expected = {'1', '1', '1'};
+        char[] expected = {'X', 'Y', 'Z'};
         assertThat(result).containsExactly(expected);
     }
 }
